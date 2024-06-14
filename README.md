@@ -2,6 +2,9 @@
 
 This website is dedicated to providing comprehensive information about coffee shops in Makassar. Whether you're searching for the most popular spots or hidden gems, we have you covered. Our aim is to help you discover the perfect café that suits your personal taste, whether you're looking for a place to study, work, hang out with friends, or go on a date. Explore and enjoy Makassar's vibrant coffee culture with us.
 
+Click this link to see the preview:
+<a href="https://revou-fsse-5.github.io/module-1-kikyrizkianunkyw/">https://revou-fsse-5.github.io/module-1-kikyrizkianunkyw/</a>
+
 
 ## About Me 
 <img src="https://i.ibb.co.com/jLcMssM/French-Girl-Chic-Leia-Sfez.png" alt="Kiky Rizkia" width="200" />
