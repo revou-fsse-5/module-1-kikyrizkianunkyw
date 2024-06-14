@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les café à Makassar</title>
+    <link href="https://fonts.cdnfonts.com/css/cafe-de-paris-sans" rel="stylesheet">
+</head>
+<body style="background-color: rgb(245, 241, 235);">
+    <header>
+        <div style="position: sticky; top: 0; display: flex; justify-content: space-between; align-items: center; height: 20px; padding: 20px; background-color: rgb(226, 209, 185); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);;">
+            <div style="color: rgb(135,62,35); text-decoration: none; font-weight: 700; font-style: oblique; font-family: 'Cafe de Paris Sans', sans-serif;">Les café à Makassar</div>
+            <nav style="display: flex; gap: 10px; margin-left: auto;">
+                <a style="color: rgb(135,62,35); text-decoration: none; font-size: 0.875rem; font-weight: 500; position: relative;" onmouseover="this.style.textDecoration= 'underline'" onmouseout="this.style.textDecoration = 'none'">Home</a>
+                <a style="color: rgb(135,62,35); text-decoration: none; font-size: 0.875rem; font-weight: 500; position: relative;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration = 'none'">Page</a>
+                <a style="color: rgb(135,62,35); text-decoration: none; font-size: 0.875rem; font-weight: 500; position: relative;" onmouseover="this.style.textDecoration= 'underline'" onmouseout="this.style.textDecoration = 'none'">Contact</a>
+                <a style="color: rgb(135,62,35); text-decoration: none; font-size: 0.875rem; font-weight: 500; position: relative;" onmouseover="this.style.textDecoration= 'underline'" onmouseout="this.style.textDecoration = 'none'">About</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Home -->
+        <section>
+            <h1 style="display: flex; text-align: center; justify-content: center; align-items: center; color: rgb(48, 33, 27); font-size:xx-large;">Welcome to Les café à Makassar Page</h1>
+            <p style="display: flex; text-align: center; justify-content: center; align-items: center; color: rgb(48, 33, 27);">We will help you to find and experience the best Coffee shop in Makassar that suits your vibe</p>
+            <hr>
+            <h2 style="font-weight: 600; color: rgb(48, 33, 27);">Local's Top Choices</h2>
+            <div>
+                <img src=" https://lh3.googleusercontent.com/p/AF1QipOtBmfze_clgLJfncnWMhUXxh8TGBM25b8lUkba=s1360-w1360-h1020" width="200" height="200" style="object-fit:cover; aspect-ratio: 200/200;">
+                <h3>Kopi Teori</h3>
+                <p>Address : Jl. Beruang No.20, RT.005/RW.001, Bonto Biraeng, Kec. Mamajang, Kota Makassar, Sulawesi Selatan 90132</p>
+            </div>
+            <div>
+                <img src=" https://lh3.googleusercontent.com/p/AF1QipMd2qr3QCm8Dj9qSwX7GlwyP0iRunLNV4Us43Ef=s1360-w1360-h1020" width="200" height="200" style="object-fit:cover; aspect-ratio: 200/200;">
+                <h3>Wirs Coffee 2.0</h3>
+                <p>Address : Jl. Macan No.10, Labuang Baji, Kec. Mamajang, Kota Makassar, Sulawesi Selatan 90132</p>
+            </div>
+            <div>
+                <img src="https://lh3.googleusercontent.com/p/AF1QipNZH0th798qn14fiLsOqYovT6P1x5VqXqy4nehZ=s1360-w1360-h1020" width="200" height="200" style="object-fit:cover; aspect-ratio: 200/200;">
+                <h3>Kedai Taobun</h3>
+                <p>Address : Jl. Macan No.10, Labuang Baji, Kec. Mamajang, Kota Makassar, Sulawesi Selatan 90132</p>
+            </div>
+        </section>
+        <hr>
+
+        <!-- Menu -->
+        <section>
+            <h2 style="justify-content: center;">Help us to find your perfect Coffee Shop ambience</h2>
+            <label>Select your preference Coffee Shop Here</label>
+            <select>
+                <option style="color: darkgrey;">Select</option>
+                <option>Minimalist</option>
+                <option>Industrial</option>
+                <option>Boho</option>
+                <option>Retro</option>
+                <option>Edgy</option>
+            </select>
+        </section>
+        <hr>
+
+        <!-- About Us -->
+        <section>
+            <h2>About Us</h2>
+            <p style="display: flex; justify-content: center;">Welcome to Les Café à Makassar, your ultimate guide to discovering all the coffee shops in Makassar, from the most popular spots to hidden gems. Whether you're a visitor eager to explore the local coffee scene, a resident searching for the perfect café that matches your personality, or simply someone looking for the ideal place to study, work, hang out with friends, or go on a date, this page is designed for you. </p>
+            <p>At Les Café à Makassar, we aim to help you find the coffee shop that best fits your vibe and preferred ambiance. Let us guide you through Makassar's vibrant café culture and connect you with the perfect spot to enjoy your coffee experience.</p>
+        </section>
+        <hr>
+
+        <!-- Contact -->
+        <section>
+            <h2>Let us help you more</h2>
+            <p>If you have any questions or need further assistance, please fill out the form below, and we will get back to you as soon as possible. 
+                Our operational hours are:</p>
+            <ul style="line-height: 1.5;">
+                <li><strong>Weekdays:</strong> 08:00 - 15:00</li>
+                <li><strong>Weekends:</strong> 08:00 - 20:00</li>
+            </ul>
+
+            <form style="line-height: 1.5;">
+                <label>Name</label>
+                <input type="text" placeholder="Your name"><br>
+
+                <label>Citizen:</label><br>
+                <input type="radio" name="citizen" id="local" value="local">
+                <label for="local">Local</label><br>
+                <input type="radio" name="citizen" id="outsider" value="outsider">
+                <label for="outsider">Outsider</label><br>
+
+                <label>Instagram</label>
+                <input type="text" placeholder="@"><br>
+
+                <label>Whatsapp</label>
+                <input type="text" placeholder="08123456"><br>
+                <p style="color: darkgrey;">For your security and privacy, we prefer to contact you via DM on Instagram.</p>
+            
+                <label>Drop your question here</label><br>
+                <textarea cols="30" rows="10" placeholder="Type your question here"></textarea><br>
+                <input type="submit"><br>
+            </form><br>
+        </section>
+    </main>
+</body>
+</html>
