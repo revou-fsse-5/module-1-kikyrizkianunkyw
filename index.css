@@ -1,0 +1,197 @@
+.root {
+    --h1: calc(var(--h2) * var(--font-scale));
+}
+.header1 {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.flex-container {
+    display: flex; /* Membuat flex container */
+    align-items: flex-start; /* Menyusun item di awal kontainer */
+    margin: 60px 60px 0px 60px;
+    height: 100vh; 
+}
+
+.container1 {
+    width: 50%;
+    margin-right: 20px; /* Margin antara container1 dan img */
+    margin-top: 10px;
+}
+
+.container1 .span1 {
+    color: #99816b;
+}
+
+.img1 {
+    width: 410px;
+    height: 410px;
+    object-fit: cover;
+    aspect-ratio: 1;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+/* Bagian TOP CHOISES */
+.gridContainer{
+    border-style: solid;
+    border-color: #99816B;
+    padding: 2rem;
+    padding-top: 1rem;
+}
+
+.grid {
+    display: grid;
+}
+
+@media (min-width: 1024px) {
+    .gridRelative {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+.gridGap {
+    gap: 1.5rem;
+}
+
+.border {
+    border-width: 1px;
+    box-shadow: 0 1px 2px 0 #99816B;
+    background-color: #E5D9CF;
+}
+
+.boxContent {
+    padding: 1.5rem;
+}
+
+.imgGrid {
+    width: 100%;
+}
+
+.h3TopGrid {
+    color: #5D4F42;
+    font-size: 1.5rem;
+}
+
+.pTopGrid {
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+/* Relative Screen */
+
+
+/* Menu */
+.flex-containerMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; 
+}
+
+.boxMenu {
+    text-align: center;
+}
+
+/* about Us */
+.container2 {
+    background-color: #F1EDE9;
+    border-width: 0;
+    display: block;
+}
+
+@media (min-width: 1024px) {
+    .pyAll {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+.boxAboutUs {
+    width: 100%;
+    display: block;
+}
+
+@media (min-width: 1280px) {
+    .boxAboutUs {
+        max-width: 1280px;
+    }
+}
+
+.Pabout {
+    display: block;
+    line-height: 1.5rem;
+    color: #5D4F42;
+    text-align: justify;
+}
+
+/* contact */
+.container3 {
+    display: block;
+    padding-left: 2rem;
+}
+
+/* Media Queries for Tablets and Smartphones */
+@media (max-width: 1024px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .container1 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .img1 {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .gridRelative {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .header1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .container1 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .gridRelative {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    form input, form textarea, form label {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
