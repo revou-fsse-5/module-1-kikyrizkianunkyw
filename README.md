@@ -5,6 +5,8 @@ This website is dedicated to providing comprehensive information about coffee sh
 Click this link to see the preview:
 <a href="https://revou-fsse-5.github.io/module-1-kikyrizkianunkyw/">https://revou-fsse-5.github.io/module-1-kikyrizkianunkyw/</a>
 
+## About The Code
+This project consists of an HTML structure for a coffee shop website, including a sticky navigation header, a welcoming section, a showcase of local top choices, a user preference form, an about us section, and a contact form. The accompanying CSS ensures a responsive design optimized for tablets and smartphones. Media queries adjust the layout for better readability on smaller screens, hide the .img1 element on smartphones, and maintain a user-friendly grid layout across various devices. The use of flexbox and grid layout techniques ensures that the content remains visually appealing and accessible, regardless of the screen size.
 
 ## About Me 
 <img src="https://i.ibb.co.com/jLcMssM/French-Girl-Chic-Leia-Sfez.png" alt="Kiky Rizkia" width="200" />
@@ -17,5 +19,10 @@ Hello, my name is Kiky Rizkianunky Woluwo, known as Kiky. I was born in 2000. I 
 ## Contact
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1000px-Instagram_logo_2022.svg.png" alt="Instagram" width="20" /> @thatblackhairlady_
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" alt="linkedin" width="20" /> [Kiky Rizkianunky Woluwo](https://www.linkedin.com/in/kiky-rizkianunky-woluwo-a742761b7/)  
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png" alt="Gmail" width="20" /> [Kiky Rizkianunky Woluwo](mailto:kikyrizkianunkywofficial@gmail.com)
+
 
 
